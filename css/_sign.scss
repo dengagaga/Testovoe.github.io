@@ -1,0 +1,70 @@
+.sign {
+    padding: 64px 0;
+    background-color: var(--footer-color);
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+    & h3 {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    & p {
+        font-size: 17px;
+        text-align: center;
+        margin-bottom: 31px;
+
+    }
+    &-label  {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+    &-label input {
+        border-bottom: 1px solid var(--main-color);
+    }
+    &-label button {
+        font-size: 15px;
+        background-color: var(--button-color);
+        color: white;
+        text-transform: uppercase;
+        padding: 1px 25px;
+        text-align: center;
+        letter-spacing: 1.6px;
+        line-height: 22.72px;
+    }
+}
+@media(max-width:500px) {
+    .sign {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .sign h3 {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .sign p {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 31px;
+    }
+    .sign-label {
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .sign {
+        padding: 40px 0;
+        background-color: var(--footer-color);
+        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}

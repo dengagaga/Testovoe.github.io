@@ -1,0 +1,99 @@
+.elevate {
+    position: relative;
+    border: 15px solid #FFFFEF;
+    margin-bottom: 87px;
+    & p {
+        font-size: 18px;
+        position: absolute;
+        right: 64px;
+        bottom: 216px;
+    }
+    & h1 {
+        position: absolute;
+        right: 64px;
+        bottom: 145px;
+        font-size: 45px;
+
+    }
+    & button {
+        position: absolute;
+        right: 64px;
+        bottom: 64px;
+        color: var(--footer-color);
+        background-color: var(--button-color);
+        padding: 16px 25px;
+    }
+}
+@media(max-width:1024px) {
+
+    .elevate h1 {
+        font-size: 40px;
+        
+    }
+    
+}
+@media(max-width:768px) {
+
+    .elevate h1 {
+        bottom: 135px;
+        font-size: 34px;
+    }
+    .elevate button {
+
+        bottom: 54px;
+        padding: 13px 22px;
+    }
+    .elevate p {
+        font-size: 16px;
+        position: absolute;
+        right: 64px;
+        bottom: 206px;
+    }
+    .elevate {
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:500px) {
+    .elevate p {
+        font-size: 12px;
+        position: absolute;
+        right: 20px;
+
+        bottom: 128px;
+    }
+    .elevate h1 {
+        bottom: 79px;
+        font-size: 25px;
+        right: 20px;
+
+    }
+    .elevate button  {
+        bottom: 18px;
+        padding: 10px 15px;
+        right: 20px;
+        bottom: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    .elevate {
+        border: 7px solid #FFFFEF;
+
+    }
+    .elevate button  {
+       font-size: 12px;
+       bottom: 10px;
+    }
+    .elevate h1 {
+        bottom: 50px;
+        font-size: 22px;
+    }
+    .elevate p {
+        font-size: 12px;
+        right: 20px;
+        bottom: 82px;
+    }
+    .elevate {
+        margin-bottom: 30px;
+    }
+}
